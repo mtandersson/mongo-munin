@@ -15,5 +15,13 @@ Requirements
 * simplejson or python >= 2.6
 * MongoDB 1.4+ 
 
+Configuration
+-----------
+You may need to create an init file for the mongo_* munin plugins: /etc/munin/plugin-conf.d/mongo
+
+[mongo*]
+env.user munin
+env.password munin_pass
+env.port port
 
 
